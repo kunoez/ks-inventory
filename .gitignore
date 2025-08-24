@@ -1,0 +1,55 @@
+# Root level gitignore
+
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+
+# Build outputs
+dist/
+build/
+.next/
+*/dist/
+*/build/
+*/.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+.temp/
+uploads/
+*/uploads/
+
+# Test files
+test-*.js
+test-*.ts
+
+# SQL files (for security)
+*.sql
+
+# Shell scripts with sensitive data
+create-admin-user.sh
+add-sample-data.sh
